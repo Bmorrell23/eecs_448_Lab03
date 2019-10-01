@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <title>Morrell Exercise4</title>
+    </head>
+    <body>
+      <script type="text/javascript" src="color.js">
+      </script>
+
+        <p id="main_para">"The scientists of today think deeply instead of clearly. One must be sane to think clearly, but one can think deeply and be quite insane." - Nikola Tesla </p>
+
+<fieldset>
+
+  <form name="bord">
+    <br>Border Color [Intensity from 0 - 255]<br>
+      Red: <input type="number" name="r" style="color:red"><br>
+      Green: <input type="number" name="g" style="color:green"><br>
+      Blue: <input type="number" name="b" style="color:blue"><br>
+      Border Width: <input type="number" name="wid"><br>
+  </form>
+
+  <form name="back">
+  Background Color [Intensity from 0 - 255]
+  <br>
+  Red:
+  <input type="number" name="r" style="color:red"><br>
+  Green: <input type="number" name="g" style="color:green"><br>
+  Blue:<input type="number" name="b" style="color:blue"><br>
+</form>
+
+
+<div style="text-align:center;">
+<button type="button" onclick="color_change(back.r.value, back.g.value, back.b.value, bord.r.value, bord.g.value, bord.b.value); width_change(bord.wid.value);">Change Nikola</button>
+</fieldset>
+
+</body>
+</html>

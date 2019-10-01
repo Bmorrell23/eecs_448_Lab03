@@ -1,0 +1,27 @@
+p
+{
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 24;
+  border: 8px solid yellow;
+}
+
+form{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24;
+  color: white;
+}
+
+button{
+  text-align: center;
+}
+
+body
+{
+background-image: url(https://wallpapercave.com/wp/cJyOGIh.png);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}

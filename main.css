@@ -1,0 +1,28 @@
+p
+{
+	background-color: red;
+	color: white;
+}
+p.invalid
+{
+	background-color: blue;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#message {
+  #display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}

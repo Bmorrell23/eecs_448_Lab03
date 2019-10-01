@@ -1,0 +1,52 @@
+a
+{
+    background-color: blue;
+    color: red;
+}
+
+a:hover
+{
+    background-color: red;
+    color: blue
+}
+
+p
+{
+    background-color: red;
+    color: white;
+    font-family: arial;
+    font-size: 22pt;
+}
+
+body
+{
+background-image: url(https://wallpapercave.com/wp/wp2473620.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h1
+{
+  font-size: 48pt;
+  color: black;
+  font-family: arial;
+  text-align: center;
+}
+
+.header
+{
+  display: inline-block;
+}
+
+h3
+{
+  text-align: center;
+  color: black;
+}
+
+h2
+{
+  color:white;
+}
+
